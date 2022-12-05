@@ -1,0 +1,23 @@
+h1{
+    text-align: center;
+    color: blue;
+}
+body{
+    background-color: darkorange;
+}
+@media screen and (min-width:400px) {
+    body{ background-color: aqua;}
+    h1{
+        color: chartreuse;
+    }
+    span{
+        border: 2px solid gold;
+        display: flex;
+    }
+}
+@media  (max-width:570px) {
+           span{
+
+
+           }
+}
